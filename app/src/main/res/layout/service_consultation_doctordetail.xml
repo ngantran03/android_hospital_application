@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeSummary" />
+
+    <Spinner
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/timeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeSummary"/>
+
+    <TextView
+        android:id="@+id/timeSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="20dp"
+        android:text="Time"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Reviews"
+            app:layout_constraintEnd_toEndOf="@+id/imageView20"
+            app:layout_constraintStart_toStartOf="@+id/imageView20"
+            app:layout_constraintTop_toBottomOf="@+id/num_patient6" />
+
+        <TextView
+            android:id="@+id/num_patient6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="4,900"
+            android:textColor="#0094F5"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView20"
+            app:layout_constraintStart_toStartOf="@+id/imageView20"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView19"
+            app:layout_constraintTop_toBottomOf="@+id/imageView14"
+            app:srcCompat="@drawable/consultation" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView17"
+            app:layout_constraintTop_toBottomOf="@+id/imageView14"
+            app:srcCompat="@drawable/consultation" />
+
+        <TextView
+            android:id="@+id/num_patient5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="4.9+"
+            android:textColor="#0094F5"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView18"
+            app:layout_constraintStart_toStartOf="@+id/imageView18"
+            app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Rating"
+            app:layout_constraintEnd_toEndOf="@+id/imageView18"
+            app:layout_constraintStart_toStartOf="@+id/imageView18"
+            app:layout_constraintTop_toBottomOf="@+id/num_patient4" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView17"
+            app:layout_constraintTop_toBottomOf="@+id/imageView14"
+            app:srcCompat="@drawable/consultation" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Year exp."
+            app:layout_constraintEnd_toEndOf="@+id/imageView17"
+            app:layout_constraintStart_toStartOf="@+id/imageView17"
+            app:layout_constraintTop_toBottomOf="@+id/num_patient3" />
+
+    <TextView
+            android:id="@+id/num_patient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="1,000+"
+            android:textColor="#0094F5"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView15"
+            app:layout_constraintStart_toStartOf="@+id/imageView15"
+            app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+        <TextView
+            android:id="@+id/num_patient3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="10+"
+            android:textColor="#0094F5"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView17"
+            app:layout_constraintStart_toStartOf="@+id/imageView17"
+            app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+        <TextView
+            android:id="@+id/num_patient4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="4.9+"
+            android:textColor="#0094F5"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView18"
+            app:layout_constraintStart_toStartOf="@+id/imageView18"
+            app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+        <TextView
+            android:id="@+id/doctor_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Rating"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+            app:layout_constraintStart_toStartOf="@+id/doctor_specialty" />
+
+        <TextView
+            android:id="@+id/doctor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="laalal"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView13"
+            app:layout_constraintTop_toTopOf="@+id/imageView13" />
+
+    <TextView
+        android:id="@+id/doctor_specialty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="laalal"
+        app:layout_constraintBottom_toTopOf="@+id/doctor_city"
+        app:layout_constraintStart_toStartOf="@+id/doctor_name"
+        app:layout_constraintTop_toBottomOf="@+id/doctor_name"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            app:srcCompat="@drawable/group_19702_2" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Book Appointment"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/doctor_city"
+            app:srcCompat="@drawable/line_37" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="@+id/imageView14"
+            app:layout_constraintTop_toBottomOf="@+id/imageView14"
+            app:srcCompat="@drawable/consultation" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView15"
+            app:layout_constraintTop_toBottomOf="@+id/imageView14"
+            app:srcCompat="@drawable/consultation" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Patients"
+            app:layout_constraintEnd_toEndOf="@+id/imageView15"
+            app:layout_constraintStart_toStartOf="@+id/imageView15"
+            app:layout_constraintTop_toBottomOf="@+id/num_patient" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="30dp"
+        android:text="BOOK APPOINTMENT"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Day"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView22"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backToHome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button"
+        android:text="Make Appointment"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/neurology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/group_19656"
+        app:layout_constraintEnd_toStartOf="@+id/family"
+        app:layout_constraintStart_toEndOf="@+id/general"
+        app:layout_constraintTop_toBottomOf="@+id/service7" />
+
+    <ImageButton
+        android:id="@+id/psychiatry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/group_19656"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text23" />
+
+    <TextView
+        android:id="@+id/dermatology3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="Psychiatry"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/psychiatry"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="@+id/psychiatry"
+        app:layout_constraintTop_toBottomOf="@+id/psychiatry" />
+
+    <TextView
+        android:id="@+id/service11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="Neurology"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/neurology"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="@+id/neurology"
+        app:layout_constraintTop_toBottomOf="@+id/neurology" />
+
+    <TextView
+        android:id="@+id/service12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="OB/GYN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/obgyn"
+        app:layout_constraintStart_toStartOf="@+id/obgyn"
+        app:layout_constraintTop_toBottomOf="@+id/obgyn" />
+
+    <ImageButton
+        android:id="@+id/obgyn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/group_19656"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/service8" />
+
+    <ImageButton
+        android:id="@+id/allergy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/group_19656"
+        app:layout_constraintEnd_toStartOf="@+id/family"
+        app:layout_constraintStart_toEndOf="@+id/general"
+        app:layout_constraintTop_toBottomOf="@+id/service4" />
+
+    <ImageButton
+        android:id="@+id/dermatology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/group_19656"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/service" />
+
+    <TextView
+        android:id="@+id/text23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="Dermatology"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/dermatology"
+        app:layout_constraintStart_toStartOf="@+id/dermatology"
+        app:layout_constraintTop_toBottomOf="@+id/dermatology" />
+
+    <TextView
+        android:id="@+id/service7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="Allergy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/cardiology"
+        app:layout_constraintStart_toStartOf="@+id/cardiology"
+        app:layout_constraintTop_toBottomOf="@+id/allergy" />
+
+    <ImageButton
+        android:id="@+id/pediatrics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/group_19656"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/service5" />
+
+    <TextView
+        android:id="@+id/service8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="Pediatrics"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/pediatrics"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="@+id/pediatrics"
+        app:layout_constraintTop_toBottomOf="@+id/pediatrics" />
+
+    <ImageButton
+        android:id="@+id/cardiology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/group_19656"
+        app:layout_constraintEnd_toStartOf="@+id/family"
+        app:layout_constraintStart_toEndOf="@+id/general"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/service5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="Family"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/family"
+        app:layout_constraintStart_toStartOf="@+id/family"
+        app:layout_constraintTop_toBottomOf="@+id/family" />
+
+    <ImageButton
+        android:id="@+id/family"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/group_19656"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="General"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/general"
+        app:layout_constraintStart_toStartOf="@+id/general"
+        app:layout_constraintTop_toBottomOf="@+id/general" />
+
+    <TextView
+        android:id="@+id/service4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="Cardiology"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/cardiology"
+        app:layout_constraintStart_toStartOf="@+id/cardiology"
+        app:layout_constraintTop_toBottomOf="@+id/family" />
+
+    <ImageButton
+        android:id="@+id/general"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/group_19656"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Choose specialty"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

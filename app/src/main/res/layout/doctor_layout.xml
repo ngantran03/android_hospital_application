@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="355dp"
+    android:layout_height="200dp"
+    android:background="@drawable/doctor_background">
+
+    <TextView
+        android:id="@+id/reviewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="sans-serif"
+        android:text="Reviews"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintStart_toEndOf="@+id/review" />
+
+    <TextView
+        android:id="@+id/specialty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="laalal"
+        app:layout_constraintBottom_toTopOf="@+id/ratingText"
+        app:layout_constraintStart_toStartOf="@+id/doctorname"
+        app:layout_constraintTop_toBottomOf="@+id/doctorname" />
+
+    <TextView
+        android:id="@+id/ratingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Rating"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintStart_toStartOf="@+id/doctorname" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="sans-serif"
+        android:text="5.0"
+        app:layout_constraintBottom_toBottomOf="@+id/ratingText"
+        app:layout_constraintStart_toEndOf="@+id/ratingText" />
+
+    <TextView
+        android:id="@+id/review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="sans-serif"
+        android:text="40"
+        app:layout_constraintBottom_toBottomOf="@+id/ratingText"
+        app:layout_constraintStart_toEndOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/doctorname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="laalal"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bookAppointment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/second_button"
+        android:text="Book appointment"
+        android:textColor="#0094F5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/bookAppointment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/group_19702_2" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="0.75dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rating"
+        app:layout_constraintStart_toEndOf="@+id/rating"
+        app:layout_constraintTop_toTopOf="@+id/rating"
+        app:srcCompat="@drawable/line_38" />
+
+    <TextView
+        android:id="@+id/userid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
